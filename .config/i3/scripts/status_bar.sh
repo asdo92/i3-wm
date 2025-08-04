@@ -1,0 +1,14 @@
+#!/bin/bash
+
+status_bar=0
+
+while [ ${status_bar} -eq 0 ] ; do
+  updates=$(~/.config/i3/scripts/checkUpdates.sh)
+  kernel=$(~/.config/i3/scripts/kernel_version.sh)
+  cpuinfo=$(~/.config/i3/scripts/cpu_info.sh)
+  meminfo=$(~/.config/i3/scripts/mem_info.sh)
+  volume=$(~/.config/i3/scripts/get_volume.sh)
+  date=$(~/.config/i3/scripts/current_date.sh)
+  echo "${updates} ${kernel} ${cpuinfo} ${meminfo} ${volume} ${date}"
+  sleep 2
+done
