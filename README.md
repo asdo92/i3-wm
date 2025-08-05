@@ -14,7 +14,7 @@ i3-wm - My tiling i3 configuration for Debian
       ```shell
       sudo apt install i3 i3lock arandr i3status nitrogen diodon dmenu lxappearance atril bash vim \
       recordmydesktop xfce4-screenshooter python3 python3-tk python3-psutil zenity pulseaudio-utils wget \
-      pipewire pipewire-pulse slurp xterm alacritty kitty xscreensaver xautolock coreutils unzip \
+      pipewire pipewire-pulse slurp xterm alacritty kitty xscreensaver xautolock coreutils picom unzip \
       x11-xserver-utils lxrandr ristretto grim arc-theme papirus-icon-theme adwaita-icon-theme mpv curl \
       adwaita-qt6 adwaita-qt qt5ct qt6ct rofi keepassxc electron-mail conky compton pcmanfm jq dex git \
       geany firefox xarchiver iwd fonts-noto fonts-noto-core fonts-noto-extra fonts-noto-mono polybar \
