@@ -18,6 +18,9 @@ exec --no-startup-id systemctl --user start xdg-desktop-portal.service
 exec --no-startup-id systemctl --user start xdg-desktop-portal-gtk.service
 exec --no-startup-id systemctl --user start xdg-desktop-portal-wlr.service
 
+# Load compton (compositor)
+exec --no-startup-id "sleep 15 && compton &"
+
 # Restart pipewire
 exec --no-startup-id systemctl --user restart pipewire
 exec --no-startup-id systemctl --user restart pipewire-pulse
@@ -73,7 +76,7 @@ bindsym $mod+n exec --no-startup-id pcmanfm
 bindsym $mod+p exec --no-startup-id ~/.config/dmenu/dmenu_run
 bindsym $mod+g exec --no-startup-id geany
 bindsym $mod+m exec --no-startup-id telegram
-bindsym $mod+z exec --no-startup-id recordmydesktop
+bindsym $mod+z exec --no-startup-id ~./config/i3/recordmydesktop.sh
 bindsym $mod+u exec --no-startup-id xterm
 bindsym $mod+t exec --no-startup-id xfce4-screenshooter
 bindsym $mod+i exec --no-startup-id lxappearance
