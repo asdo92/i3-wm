@@ -16,7 +16,7 @@ i3-wm - My tiling i3 configuration for Debian
       simplescreenrecorder xfce4-screenshooter python3 python3-tk python3-psutil pulseaudio-utils wget \
       pipewire pipewire-pulse slurp xterm alacritty kitty xscreensaver xautolock coreutils picom unzip \
       x11-xserver-utils lxrandr ristretto grim arc-theme papirus-icon-theme adwaita-icon-theme mpv curl \
-      adwaita-qt6 adwaita-qt qt5ct qt6ct rofi keepassxc electron-mail conky compton pcmanfm jq dex git \
+      adwaita-qt6 adwaita-qt qt5ct qt6ct rofi keepassxc electron-mail conky-all compton pcmanfm jq dex git \
       geany firefox xarchiver iwd fonts-noto fonts-noto-core fonts-noto-extra fonts-noto-mono zenity \
       xdg-desktop-portal-gtk xdg-desktop-portal xorg xserver-xorg wmctrl fonts-liberation procps
       ````
