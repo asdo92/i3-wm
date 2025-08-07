@@ -41,6 +41,7 @@ i3-wm - My tiling i3 configuration for Debian
       cd i3-wm
       cp -rf .config ~/
       cp -rf wallpapers ~/
+      cp -rf scripts ~/
       echo "export QT_QPA_PLATFORMTHEME=qt5ct" >> ~/.bashrc
       ````
 
