@@ -16,17 +16,18 @@ i3-wm - My tiling i3 configuration for Debian
       simplescreenrecorder xfce4-screenshooter python3 python3-tk python3-psutil pulseaudio-utils wget \
       pipewire pipewire-pulse slurp xterm alacritty kitty xscreensaver xautolock coreutils picom unzip \
       x11-xserver-utils lxrandr ristretto grim arc-theme papirus-icon-theme adwaita-icon-theme mpv curl \
-      adwaita-qt6 adwaita-qt qt5ct qt6ct rofi keepassxc wmctrl procps conky-all compton pcmanfm jq dex git \
-      geany firefox xarchiver iwd fonts-noto fonts-noto-core fonts-noto-extra fonts-noto-mono zenity \
-      xdg-desktop-portal-gtk xdg-desktop-portal xorg xserver-xorg fonts-liberation 
+      adwaita-qt6 adwaita-qt qt5ct qt6ct rofi keepassxc wmctrl conky-all compton pcmanfm jq dex git \
+      geany xarchiver iwd fonts-noto fonts-noto-core fonts-noto-extra fonts-noto-mono procps zenity \
+      xdg-desktop-portal-gtk xdg-desktop-portal xorg xserver-xorg fonts-liberation
       ````
 
       ```shell
+      curl -L "https://gs.q3aql.dev/i3-wm/scripts/update-firefox.sh" | sudo bash
+      curl -L "https://gs.q3aql.dev/i3-wm/scripts/update-telegram.sh" | sudo bash
+      curl -L "https://gs.q3aql.dev/i3-wm/scripts/update-electronmail.sh" | sudo bash
       curl -L "https://gs.q3aql.dev/i3-wm/packages/vim-conf-onedark.sh" | sudo bash
       curl -L "https://gs.q3aql.dev/i3-wm/packages/um-nerd-fonts.tar.gz" | sudo tar -zxvf - -C /
       curl -L "https://gs.q3aql.dev/i3-wm/packages/iwd-connectd.tar.gz" | sudo tar -zxvf - -C /
-      curl -L "https://telegram.org/dl/desktop/linux" | sudo tar -Jxvf - -C /opt/
-      sudo ln -s /opt/Telegram/Telegram /usr/bin/telegram
       sudo systemctl daemon-reload
       sudo systemctl enable iwd-connectd
       ````
