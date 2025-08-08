@@ -25,6 +25,9 @@ exec --no-startup-id "sleep 15 && picom &"
 exec --no-startup-id systemctl --user restart pipewire
 exec --no-startup-id systemctl --user restart pipewire-pulse
 
+# Run notification
+exec --no-startup-id "killall dunst && sleep 2 && dunst &"
+
 # Load Apps
 exec --no-startup-id "keepassxc &"
 exec --no-startup-id "electron-mail &"
