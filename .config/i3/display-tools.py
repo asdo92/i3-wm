@@ -17,7 +17,7 @@ class MainWindow:
 
     # Set theme and window size
     master.configure(bg='#23283f')
-    master.geometry('350x265')
+    master.geometry('350x315')
 
     self.boton1 = tk.Button(master, text="Run ARandR", command=self.exec_command1, bg='#205d2c', fg="white")
     self.boton1.pack(side=tk.TOP, pady=10)
@@ -27,6 +27,9 @@ class MainWindow:
 
     self.boton3 = tk.Button(master, text="Run xfce4-screenshooter", command=self.exec_command3, bg='#205d2c', fg="white")
     self.boton3.pack(side=tk.TOP, pady=10)
+
+    self.boton6 = tk.Button(master, text="Run SimpleScreenRecorder", command=self.exec_command6, bg='#205d2c', fg="white")
+    self.boton6.pack(side=tk.TOP, pady=10)
 
     self.boton4 = tk.Button(master, text="Start/Restart Conky i3", command=self.exec_command4, bg='#205d2c', fg="white")
     self.boton4.pack(side=tk.TOP, pady=10)
@@ -40,6 +43,7 @@ class MainWindow:
     self.boton3.pack(side=tk.TOP, padx=10, pady=10, fill=tk.BOTH)
     self.boton4.pack(side=tk.TOP, padx=10, pady=10, fill=tk.BOTH)
     self.boton5.pack(side=tk.TOP, padx=10, pady=10, fill=tk.BOTH)
+    self.boton6.pack(side=tk.TOP, padx=10, pady=10, fill=tk.BOTH)
 
   def exec_command1(self):
     print('# Run ARandR')
@@ -56,6 +60,11 @@ class MainWindow:
   def exec_command3(self):
     print('# Run xfce4-screenshooter"')
     command = "xfce4-screenshooter"
+    os.system(command)
+
+  def exec_command6(self):
+    print('# Run SimpleScreenRecorder"')
+    command = "simplescreenrecorder"
     os.system(command)
 
   def exec_command4(self):
