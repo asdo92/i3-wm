@@ -58,8 +58,8 @@ floating_modifier $mod
 #new_window 1pixel
 new_window pixel 2
 
-# start a terminal
-bindsym $mod+Return exec kitty
+# start a terminal (you can change with kitty or alacritty)
+bindsym $mod+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
