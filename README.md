@@ -3,7 +3,7 @@ i3-wm - My tiling i3 configuration for Debian
 
 ### Screenshot:
 
-![i3](https://git.q3aql.dev/q3aql/i3-wm/raw/branch/master/examples/i3.png)
+![i3](/examples/i3.png)
 
 ### Installation:
 
