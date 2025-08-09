@@ -3,7 +3,7 @@ i3-wm - My tiling i3 configuration for Debian
 
 ### Screenshot:
 
-![i3](/examples/i3.png)
+![i3](https://git.q3aql.dev/q3aql/i3-wm/raw/branch/master/examples/i3.png)
 
 ### Installation:
 
@@ -16,9 +16,9 @@ i3-wm - My tiling i3 configuration for Debian
       simplescreenrecorder xfce4-screenshooter python3 python3-tk python3-psutil pulseaudio-utils wget \
       pipewire pipewire-pulse slurp xterm alacritty kitty xscreensaver xautolock coreutils picom unzip \
       x11-xserver-utils lxrandr ristretto grim arc-theme papirus-icon-theme adwaita-icon-theme mpv curl \
-      adwaita-qt6 adwaita-qt qt5ct qt6ct rofi keepassxc wmctrl conky-all compton pcmanfm jq dex git \
-      geany xarchiver iwd fonts-noto fonts-noto-core fonts-noto-extra fonts-noto-mono procps zenity \
-      xdg-desktop-portal-gtk xdg-desktop-portal xorg xserver-xorg fonts-liberation dunst psmisc
+      adwaita-qt6 adwaita-qt qt5ct qt6ct rofi keepassxc wmctrl conky-all compton pcmanfm jq dex dunst \
+      geany xarchiver iwd fonts-noto fonts-noto-core fonts-noto-extra fonts-noto-mono procps git zenity \
+      xdg-desktop-portal-gtk xdg-desktop-portal xorg xserver-xorg fonts-liberation psmisc terminator
       ````
 
       ```shell
