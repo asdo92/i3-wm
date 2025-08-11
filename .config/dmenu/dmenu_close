@@ -40,7 +40,7 @@ function load_session_options() {
   i3_session=$(ps -ef | grep " i3" | grep -v "grep")
   sessions_check="${dwm_session}${spectrwm_session}${qtile_session}${sway_session}${i3_session}"
   if [ ! -z "${sessions_check}" ] ; then
-    echo "  Logout"
+    echo "󰍃  Logout"
   fi
   generate_spaces 75
 }

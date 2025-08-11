@@ -42,7 +42,7 @@ function check_wmctrl() {
   wmctrl -h &> /dev/null
   error=$?
   if [ ${error} -ne 0 ] ; then
-    echo "  Error: You need install 'wmctrl'" | dmenu -i -nb "${NBCOLOR}" -nf "${NFCOLOR}" -sb "${SBCOLOR}" -sf "${SFCOLOR}" -l 18 -p " window:"
+    echo "  Error: You need install 'wmctrl'" | dmenu -i -nb "${NBCOLOR}" -nf "${NFCOLOR}" -sb "${SBCOLOR}" -sf "${SFCOLOR}" -l 18 -p "󰈞 window:"
     exit
   fi
 }
@@ -56,7 +56,7 @@ function list_applications_icons() {
 
 load_theme
 check_wmctrl
-list_output=$(list_applications_icons | dmenu -i -fn "${font_dmenu}" -nb "${NBCOLOR}" -nf "${NFCOLOR}" -sb "${SBCOLOR}" -sf "${SFCOLOR}" -l 18 -p " window:")
+list_output=$(list_applications_icons | dmenu -i -fn "${font_dmenu}" -nb "${NBCOLOR}" -nf "${NFCOLOR}" -sb "${SBCOLOR}" -sf "${SFCOLOR}" -l 18 -p "󰈞 window:")
 run_output=$(echo ${list_output} | cut -c 5-999)
 echo "# Selected: ${run_output}"
 run_output=$(echo "${run_output}" | cut -d " " -f 1)
