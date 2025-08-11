@@ -71,14 +71,14 @@ conky.text = [[
 ${color 3b8af6}   SYSTEM INFO ${hr 1}${color}
 ###############
 
-${color cf9c19}   ${color}${color e25ee6}Kernel:${color}${color 9ca8ce} ${execi 60 ${HOME}/.config/conky/scripts/kernel_version.sh}${color}
-${color cf9c19}   ${color}${color e25ee6}Time:${color}${color 9ca8ce} ${execi 10 ${HOME}/.config/conky/scripts/current_date.sh}${color}
+${color cf9c19} 󰌽  ${color}${color e25ee6}Kernel:${color}${color 9ca8ce} ${execi 60 ${HOME}/.config/conky/scripts/kernel_version.sh}${color}
+${color cf9c19} 󱛡  ${color}${color e25ee6}Time:${color}${color 9ca8ce} ${execi 10 ${HOME}/.config/conky/scripts/current_date.sh}${color}
 ${color cf9c19}   ${color}${color e25ee6}Uptime:${color}${color 9ca8ce} ${execi 30 ${HOME}/.config/conky/scripts/show_uptime.sh}${color}
 ${color cf9c19}   ${color}${color e25ee6}Volume:${color}${color 9ca8ce} ${execi 1 ${HOME}/.config/conky/scripts/get_volume.sh}${color}
-${color cf9c19}   ${color}${color e25ee6}Disk:${color}${color 9ca8ce} ${execi 10 ${HOME}/.config/conky/scripts/disk_info.sh}${color}
-${color cf9c19}   ${color}${color e25ee6}Memory:${color}${color 9ca8ce} ${execi 10 ${HOME}/.config/conky/scripts/mem_info.sh}${color}
+${color cf9c19}   ${color}${color e25ee6}Disk:${color}${color 9ca8ce} ${execi 10 ${HOME}/.config/conky/scripts/disk_info.sh}${color}
+${color cf9c19} 󰍛  ${color}${color e25ee6}Memory:${color}${color 9ca8ce} ${execi 10 ${HOME}/.config/conky/scripts/mem_info.sh}${color}
 ${color cf9c19}   ${color}${color e25ee6}CPU:${color}${color 9ca8ce} ${execi 2 ${HOME}/.config/conky/scripts/cpu_info.sh}${color}
-${color cf9c19} ﬙  ${color}${color e25ee6}GPU:${color}${color 9ca8ce} ${execi 2 ${HOME}/.config/conky/scripts/gpu_info.sh}${color}
+${color cf9c19} 󰘚  ${color}${color e25ee6}GPU:${color}${color 9ca8ce} ${execi 2 ${HOME}/.config/conky/scripts/gpu_info.sh}${color}
 ${color cf9c19}   ${color}${color e25ee6}Updates:${color}${color 9ca8ce} ${execi 120 ${HOME}/.config/conky/scripts/checkUpdates.sh}${color}
 
 ${color 3b8af6} 󰌌  I3 KEYBINDINGS ${hr 1}${color}
