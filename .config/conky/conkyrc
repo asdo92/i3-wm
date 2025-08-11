@@ -84,7 +84,7 @@ ${color cf9c19}   ${color}${color e25ee6}Updates:${color}${color 9ca8ce} ${ex
 ${color 3b8af6} 󰌌  I3 KEYBINDINGS ${hr 1}${color}
 #####################
 
-${color 379838} 󰌓  ${color}${color e25ee6}Super + 󰌑  ${color}${color 9ca8ce}= Kitty${color}
+${color 379838} 󰌓  ${color}${color e25ee6}Super + 󰌑  ${color}${color 9ca8ce}= Terminal${color}
 ${color 379838} 󰌓  ${color}${color e25ee6}Super + 󰘶  + space ${color}${color 9ca8ce}= Float Window${color}
 ${color 379838} 󰌓  ${color}${color e25ee6}Super + f ${color}${color 9ca8ce}= Fullscreen${color}
 ${color 379838} 󰌓  ${color}${color e25ee6}Super + p ${color}${color 9ca8ce}= Dmenu (Run Mode)${color}
