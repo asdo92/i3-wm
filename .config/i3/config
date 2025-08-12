@@ -268,6 +268,10 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Input layout
+#exec --no-startup-id setxkbmap us 
+exec --no-startup-id setxkbmap es
+
 # Start i3bar to display a workspace bar
 bar {
   position top
