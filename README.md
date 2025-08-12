@@ -111,7 +111,7 @@ i3-wm - My tiling i3 configuration for Debian
   * **`Layout:`**
   
     * By default, the config load my spanish layout.:
-    * Edit  `~/.config/sway/config` for set your configuration:
+    * Edit  `~/.config/i3/config` for set your configuration:
     
       ```shell
       # Input layout
