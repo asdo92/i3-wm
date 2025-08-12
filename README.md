@@ -108,6 +108,17 @@ i3-wm - My tiling i3 configuration for Debian
       tray_output HDMI-A-0
       ````
 
+  * **`Layout:`**
+  
+    * By default, the config load my spanish layout.:
+    * Edit  `~/.config/sway/config` for set your configuration:
+    
+      ```shell
+      # Input layout
+      #exec --no-startup-id setxkbmap us 
+      exec --no-startup-id setxkbmap es  
+      ````
+
 ### Keys configuration:
 
 My list of extra combinations:
