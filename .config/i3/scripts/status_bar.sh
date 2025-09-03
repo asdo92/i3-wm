@@ -9,7 +9,8 @@ while [ ${status_bar} -eq 0 ] ; do
   meminfo=$(~/.config/i3/scripts/mem_info.sh)
   volume=$(~/.config/i3/scripts/get_volume.sh)
   lang=$(~/.config/i3/scripts/get_lang.sh)
+  battery=$(~/.config/i3/scripts/battery.sh)
   date=$(~/.config/i3/scripts/current_date.sh)
-  echo "${updates} ${kernel} ${cpuinfo} ${meminfo} ${volume} ${lang} ${date}"
+  echo "${updates} ${kernel} ${cpuinfo} ${meminfo} ${volume} ${lang} ${battery} ${date}"
   sleep 2
 done
