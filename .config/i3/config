@@ -272,6 +272,12 @@ bindsym $mod+r mode "resize"
 #exec --no-startup-id setxkbmap us 
 exec --no-startup-id setxkbmap es
 
+# Touchpad (run first 'xinput list' to show your touchpad id
+exec --no-startup-id xinput set-prop 11 "libinput Tapping Enabled" 1
+
+bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
+
 # Start i3bar to display a workspace bar
 bar {
   position top
