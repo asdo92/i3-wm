@@ -23,12 +23,12 @@ i3-wm - My tiling i3 configuration for Debian
       ````
 
       ```shell
-      curl -L "https://gs.q3aql.dev/i3-wm/scripts/update-firefox.sh" | sudo bash
-      curl -L "https://gs.q3aql.dev/i3-wm/scripts/update-telegram.sh" | sudo bash
-      curl -L "https://gs.q3aql.dev/i3-wm/scripts/update-electronmail.sh" | sudo bash
-      curl -L "https://gs.q3aql.dev/i3-wm/packages/vim-conf-onedark.sh" | sudo bash
-      curl -L "https://gs.q3aql.dev/i3-wm/packages/um-nerd-fonts.tar.gz" | sudo tar -zxvf - -C /
-      curl -L "https://gs.q3aql.dev/i3-wm/packages/iwd-connectd.tar.gz" | sudo tar -zxvf - -C /
+      curl -L "https://gs.yougeek.dev/i3-wm/scripts/update-firefox.sh" | sudo bash
+      curl -L "https://gs.yougeek.dev/i3-wm/scripts/update-telegram.sh" | sudo bash
+      curl -L "https://gs.yougeek.dev/i3-wm/scripts/update-electronmail.sh" | sudo bash
+      curl -L "https://gs.yougeek.dev/i3-wm/packages/vim-conf-onedark.sh" | sudo bash
+      curl -L "https://gs.yougeek.dev/i3-wm/packages/um-nerd-fonts.tar.gz" | sudo tar -zxvf - -C /
+      curl -L "https://gs.yougeek.dev/i3-wm/packages/iwd-connectd.tar.gz" | sudo tar -zxvf - -C /
       sudo systemctl daemon-reload
       sudo systemctl enable iwd-connectd
       ````
@@ -38,7 +38,7 @@ i3-wm - My tiling i3 configuration for Debian
     * Clone repository and copy files to your home:
 
       ```shell
-      git clone https://git.q3aql.dev/q3aql/i3-wm
+      git clone https://github.com/asdo92/i3-wm
       cd i3-wm
       cp -rf .config ~/
       cp -rf wallpapers ~/
