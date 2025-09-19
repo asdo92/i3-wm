@@ -3,8 +3,8 @@
 ###############################################################
 # down-daemon (down-screen) - Daemon to shutdown the screen   #
 # Date: 19-11-2020                                            #
-# Author: q3aql                                               #
-# Contact: q3aql@duck.com                                     #
+# Author: asdo92                                               #
+# Contact: asdo92@duck.com                                     #
 ###############################################################
 VERSION="1.0"
 M_DATE="191120"
