@@ -30,7 +30,6 @@ i3-wm - My tiling i3 configuration for Debian
       curl -L "https://gs.yougeek.dev/i3-wm/packages/um-nerd-fonts.tar.gz" | sudo tar -zxvf - -C /
       curl -L "https://gs.yougeek.dev/i3-wm/packages/iwd-connectd.tar.gz" | sudo tar -zxvf - -C /
       sudo systemctl daemon-reload
-      sudo systemctl enable iwd-connectd
       ````
  
   * **`Install configuration (dotfiles):`**
@@ -48,9 +47,9 @@ i3-wm - My tiling i3 configuration for Debian
 
 ### Configuration:
 
-  * **`Network:`**
+  * **`Network (Optional):`**
   
-    * By default, I use `iwd` as my network manager via the `iwd-connectd` script:
+    * By default, I use `iwd` as my network manager via the `iwd-connectd` script. Alternative using [interfaces](https://github.com/asdo92/i3-wm/blob/master/.config/network/interfaces) file.
     * To modify the configuration, you must edit the file `/usr/bin/iwd-connectd-cfg` with root:
     
       ```shell
@@ -67,6 +66,7 @@ i3-wm - My tiling i3 configuration for Debian
     * After modifying the configuration, restart the service:
 
       ```shell
+      $ sudo systemctl enable iwd-connectd
       $ sudo systemctl restart iwd-connectd
       ````
 
